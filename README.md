@@ -136,9 +136,9 @@
     <div class="question">Select your package size</div>
     <div class="options">
       <div class="option" onclick="selectOption(this,'tiny')">Tiny (Front bed only)</div>
-      <div class="option" onclick="selectOption(this,'small')">Small (Front + 1-2 island/corner beds)</div>
-      <div class="option" onclick="selectOption(this,'medium')">Medium (Front, sides, some back beds)</div>
-      <div class="option" onclick="selectOption(this,'large')">Large (Full front, sides, back, property line beds)</div>
+      <div class="option" onclick="selectOption(this,'small')">Small (Front bed + 1-2 island/corner beds)</div>
+      <div class="option" onclick="selectOption(this,'medium')">Medium (Front beds, side beds, small back of hoise beds or island beds beds)</div>
+      <div class="option" onclick="selectOption(this,'large')">Large (multiple front beds, side beds, back beds, some island beds)</div>
     </div>
     <button onclick="nextStep()">Next</button>
   </div>
